@@ -448,15 +448,6 @@ export default function HomeScreen() {
                 <View style={styles.rangeContainer}>
                   <Text style={styles.rangeText}>${priceRange[0]} - ${priceRange[1]}</Text>
                 </View>
-                <Slider
-                  style={styles.slider}
-                  minimumValue={0}
-                  maximumValue={10000}
-                  value={priceRange[1]}
-                  onValueChange={(value) => setPriceRange([priceRange[0], value])}
-                  minimumTrackTintColor="#6B4EFF"
-                  maximumTrackTintColor="#E5E7EB"
-                  thumbStyle={{ backgroundColor: '#6B4EFF' }}
                 />
               </View>
 
