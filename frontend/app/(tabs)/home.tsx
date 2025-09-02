@@ -448,7 +448,6 @@ export default function HomeScreen() {
                 <View style={styles.rangeContainer}>
                   <Text style={styles.rangeText}>${priceRange[0]} - ${priceRange[1]}</Text>
                 </View>
-                />
               </View>
 
               {/* Property Type */}
